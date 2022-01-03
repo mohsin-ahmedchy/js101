@@ -21,5 +21,5 @@ const acc1 = {
   
   const accs = [acc1, acc2, acc3];
 //find method:
-  const details = accs.find(mov=>mov.owner==='Abir');
+  const details = accs.find(mov=>mov.owner==='Mohsin');
   console.log(details);

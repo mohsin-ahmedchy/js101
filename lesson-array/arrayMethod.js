@@ -41,7 +41,10 @@ const acc1 = {
 
 const convert = (value)=>{
     const exceptional = ['a','an','the','in','on','but','for','and','a.m','p.m','then'];
-    return value.toLowerCase().split(' ').map(mov=> exceptional.includes(mov)?mov:mov[0].toUpperCase()+mov.slice(1)).join(" ");
+    return value.toLowerCase()
+                .split(' ')
+                .map(mov=> exceptional.includes(mov)?mov:mov[0].toUpperCase()+mov.slice(1))
+                .join(" ");
 }
 
 console.log(convert('my name is Mohsin AHMED and I live in sweDen.'));
