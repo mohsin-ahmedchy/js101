@@ -14,3 +14,9 @@ console.log(Math.trunc(Math.random()*5));
 console.log(Math.max(34,5,76,8));
 console.log(Math.min(34,5,76,8));
 console.log(Math.PI);
+
+
+//Numeric sperator:(_)to understand a large number easily.
+
+const price = 132_5677;
+console.log(price);
