@@ -4,8 +4,8 @@ const now = new Date();
 const option = {
     hour :'numeric',
     minutes:'numeric',
-    day:'numeric',
-    month:'2-digit',
+    day:'numeric',//long (4/tues)
+    month:'2-digit',//long (04/April)
     year:'numeric'
 }
 
