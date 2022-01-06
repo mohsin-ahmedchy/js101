@@ -7,7 +7,7 @@ const option = {
     day:'numeric',//long (4/tues)
     month:'2-digit',//long (04/April)
     year:'numeric'
-}
+} 
 
 //ISO Language Code Table:(en-GB,ar-SY etc)
 const time = new Intl.DateTimeFormat('en-GB',option).format(now);
