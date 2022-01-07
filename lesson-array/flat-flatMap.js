@@ -24,6 +24,7 @@ const acc1 = {
   const accs = [acc1, acc2, acc3];
 
   const accMovements = accs.map(acc=>acc.movements);
+  console.log(accMovements);
   const fullMovements = accMovements.flat();
   const addMovements1 = fullMovements.reduce((acc,mov)=>acc+mov,0);
 
