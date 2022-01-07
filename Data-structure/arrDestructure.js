@@ -29,7 +29,7 @@ console.log(value_1,value_2);
 
 //nested:
 
-const [i,[j,k]]=[1,[5,6]];
+const [i,,[j,k]]=[1,2,[5,6]];
 console.log(i,j,k);
 
 //default:
