@@ -21,9 +21,7 @@ const restaurant = {
         },
       },
 
-    order(startIndex,mainIndex){
-        return [this.starterMenu[startIndex],this.mainMenu[mainIndex]];
-    },
+
    //example:
    orderDelivery({time='23',startIndex=3,mainIndex=1,address}){
     console.log(`Please ${this.starterMenu[startIndex]} and ${this.mainMenu[mainIndex]} delivery to ${address} at ${time} p.m`);
