@@ -27,7 +27,7 @@ for(const nam of uni_Name){
 console.log(uni_Name.delete('Moin'));
 console.log(uni_Name);
 
-//insert into a new array:
+//set insert into a new array:
 const value_N = [...new Set(uni_Name)];//using spread operator.
 console.log(value_N);
 
